@@ -1,0 +1,182 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background: #34495e; */
+  background-image: url('/Home/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: century,sans-serif;
+
+}
+
+/* header start */
+p{
+  font-size: 0.9em;
+  line-height: 1.6em;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  height:80%;
+  padding: 1em 2em;
+
+}
+
+header{
+  margin-left: 67%;
+  /* position:absolute; */
+}
+/* header end */
+
+
+/* css for login page */
+
+.loginbox {
+  width: 200px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  border-radius: 13px;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.loginbox input[type="text"], .loginbox input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 5px 0;
+  width: 150px;
+  outline: none;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.loginbox input[type="text"]:hover, .loginbox input[type="password"]:hover{
+  width:175px;
+  border-color: #01DFA5;
+  position: relative;
+}
+
+.loginbox input[type = "submit"]{
+  background: #191919;
+  border: 2px solid #3498db;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-weight: 50;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.loginbox input[type = "submit"]:hover{
+  background:#4000FF;
+}
+
+.loginbox p{
+  color: white;
+  margin: 20px auto;
+  padding: none;
+  font-family: serif;
+}
+p a:hover {
+  color: #5858FA;
+}
+
+.forgot{
+  margin-top: 20px;
+  font-size: .9em;
+  padding: none;
+  font-family: serif;
+}
+
+/* registerpage for people css */
+
+.registerbox{
+
+  color: white;
+  width: 350px;
+  display: block;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  border-radius: 13px;
+}
+
+.registerbox label{
+  position: relative;
+  top: 31px;
+  right: 5em;
+
+}
+
+.registerbox input[type = "text"], .registerbox input[type = "password"] {
+  border: 0;
+  margin: 7px auto;
+  background: none;
+  display: block;
+  margin-left: 13em;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 5px 0;
+  width: 150px;
+  outline: none;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.registerbox input[type = "text"]:hover, .registerbox input[type = "password"]:hover {
+  border-color: #01DFA5;
+}
+
+.registerbox input[type = "submit"]{
+  background: none;
+  color: white;
+  margin: 14px auto;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+
+.registerbox input[type="submit"]:hover{
+  background: #4000FF;
+}
+
+.registerbox p{
+  color: white;
+  margin: 20px auto;
+  padding: none;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: serif;
+}
